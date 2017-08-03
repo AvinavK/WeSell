@@ -9,12 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\css\custom.css" />
-    <Content Include="wwwroot\js\custom-bootstarp.js" />
-    <Content Include="wwwroot\lib\bootstrap\dist\css\custom.css" />
-    <Content Include="wwwroot\lib\bootstrap\dist\js\Custom.css" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
