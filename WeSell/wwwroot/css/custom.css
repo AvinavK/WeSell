@@ -148,3 +148,36 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
     background-repeat: repeat-x;
 }
+
+/*! To change the color of the font-awesome icons.*/
+.fa-cog {
+    color: #31b0d5;
+}
+
+.grid-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #31b0d5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*! makes the height of the cells in a row equal. By default they take the size of content and 
+    different cells can be of different heights in the same row.
+*/
+.equal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .equal > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
+
+.footer-style{
+    background-color:grey;
+}

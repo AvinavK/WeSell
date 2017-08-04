@@ -47,7 +47,6 @@ namespace WeSell
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
@@ -55,6 +54,8 @@ namespace WeSell
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }
